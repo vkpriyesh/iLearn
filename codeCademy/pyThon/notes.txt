@@ -1,0 +1,113 @@
+February 11th, 2016
+
+python doesn't require any explicit definition for data types.
+
+print function works as simple as <print something>.
+
+funtions are defined as:
+	def fnName():
+		something over here
+
+SO INDENTATION IS THE KEY TO BOOM BOOM
+
+comments start with #:
+	#like this | well this is a single line comment 
+	"""but this is a 
+		multi line comment lol"""
+
+mathematical operations just go as simple as they can:
+	mathSum = 654 + 5644
+
+exponential stuffs go as this:
+	something ** to_the_power_something
+
+as usual, the modulo goes like this:
+	654 % 1
+
+String formatting works like this:
+	print("%.2f" % total)
+
+Strings are defined as :
+	someString = "some String. okay?"
+
+Escape characterization is done by \ :
+	like this\'s
+
+A character from a string can be fetched using:
+	"somestring" [characterIndex]
+
+	where characterIndex is the number position of the desired character from left to right, starting from zero
+
+Number of letters in a string can be found out by:
+	len()
+
+For lowering down the case of a string:
+	lower()
+
+For upper case of a string:
+	upper()
+
+For explicit conversion of a variable:
+	str(someVariable or data)
+
+Concatenation of the string can be done as:
+	"some string here" + "some here" + "some up here"
+
+
+STRING FORMATTING :
+
+multiple variables can be defined under:
+	"%s1 %s2.... %sn" % (var1, var2, var3.... varN)
+
+upper case can be used as:
+	var_name.upper()
+
+********************************************************************************************************************************************************************************************************************
+
+DATE AND TIME
+
+from datetime import datetime
+
+for the current timing:	
+	datetime.now()
+	datetime.year
+	datetime.month
+	datetime.day
+	datetime.hour
+	datetime.minute
+	datetime.second
+
+********************************************************************************************************************************************************************************************************************
+
+CONDITIONS AND CONTROL FLOW:
+
+	comparisons can be embedded
+
+TRUTH TABLES:
+	"""
+     Boolean Operators
+------------------------      True and True is True
+True and False is False
+False and True is False
+False and False is False
+
+True or True is True
+True or False is True
+False or True is True
+False or False is False
+
+Not True is False
+Not False is True
+
+"""
+
+
+"Elif" is short for "else if." It means exactly what it sounds like: "otherwise, if the following expression is true, do this!"
+
+if 8 > 9:
+    print "I don't get printed!"
+elif 8 < 9:
+    print "I get printed!"
+else:
+    print "I also don't get printed!"
+In the example above, the elif statement is only checked if the original if statement if False.
