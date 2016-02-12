@@ -1,3 +1,74 @@
+February 12th, 2016
+
+
+max()
+
+The max() function takes any number of arguments and returns the largest one. ("Largest" can have odd definitions here, so it's best to use max() on integers and floats, where the results are straightforward, and not on other objects, like strings.)
+
+For example, max(1,2,3) will return 3 (the largest number in the set of arguments).
+
+
+Here Be Dragons
+
+Universal imports may look great on the surface, but they're not a good idea for one very important reason: they fill your program with a ton of variable and function names without the safety of those names still being associated with the module(s) they came from.
+
+If you have a function of your very own named sqrt and you import math, your function is safe: there is your sqrt and there is math.sqrt. If you do from math import *, however, you have a problem: namely, two different functions with the exact same name.
+
+Even if your own definitions don't directly conflict with names from imported modules, if you import * from several modules at once, you won't be able to figure out which variable or function came from where.
+
+For these reasons, it's best to stick with either import module and type module.name or just import specific variables and functions from various modules as needed.
+Instructions
+
+The code in the editor will show you everything available in the math module.
+
+Click Save & Submit Code to check it out (you'll see sqrt, along with some other useful things like pi, factorial, and trigonometric functions).
+
+
+
+I Know Kung Fu
+
+Remember import this from the first exercise in this course? That was an example of importing a module. A module is a file that contains definitions—including variables and functions—that you can use once it is imported.
+
+Generic Imports
+
+Did you see that? Python said: "NameError: name 'sqrt' is not defined." Python doesn't know what square roots are—yet.
+
+There is a Python module named math that includes a number of useful variables and functions, and sqrt() is one of those functions. In order to access math, all you need is the import keyword. When you simply import a module this way, it's called a generic import.
+
+
+
+Ending Up
+
+Well done! However, now we have the first letter showing up both at the beginning and near the end.
+
+s = "Charlie"
+
+print s[0]
+# will print "C"
+
+print s[1:4]
+# will print "har"
+
+    First we create a variable s and give it the string "Charlie"
+    Next we access the first letter of "Charlie" using s[0]. Remember letter positions start at 0.
+    Then we access a slice of "Charlie" using s[1:4]. This returns everything from the letter at position 1 up till position 4.
+
+We are going to slice the string just like in the 3rd example above.
+
+
+Parameters and Arguments
+
+Let's reexamine the first line that defined square in the previous exercise:
+
+def square(n):
+
+n is a parameter of square. A parameter acts as a variable name for a passed in argument. With the previous example, we called square with the argument 10. In this instance the function was called, n holds the value 10.
+
+A function can require as many parameters as you'd like, but when you call the function, you should generally pass in a matching number of arguments.
+
+
+******************************************************************************************************************************
+******************************************************************************************************************************
 February 11th, 2016
 
 python doesn't require any explicit definition for data types.
