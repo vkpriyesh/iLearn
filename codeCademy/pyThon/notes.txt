@@ -9,6 +9,92 @@ A variable name follows the for keyword; it will be assigned the value of each l
 
 Then in list_name designates list_name as the list the loop will work on. The line ends with a colon (:) and the indented code that follows it will be executed once per item in the list.
 
+More with 'for'
+If your list is a jumbled mess, you may need to sort() it.
+
+animals = ["cat", "ant", "bat"]
+animals.sort()
+
+for animal in animals:
+    print animal
+First, we create a list called animals with three strings. The strings are not in alphabetical order.
+Then, we sort animals into alphabetical order. Note that .sort() modifies the list rather than returning a new list.
+Then, for each item in animals, we print that item out as "ant", "bat", "cat" on their own line each.
+
+This Next Part is Key
+A dictionary is similar to a list, but you access values by looking up a key instead of an index. A key can be any string or number. Dictionaries are enclosed in curly braces, like so:
+
+d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
+This is a dictionary called d with three key-value pairs. The key 'key1' points to the value 1, 'key2' to 2, and so on.
+
+Dictionaries are great for things like phone books (pairing a name with a phone number), login pages (pairing an e-mail address with a username), and more!
+
+New Entries
+Like Lists, Dictionaries are "mutable". This means they can be changed after they are created. One advantage of this is that we can add new key/value pairs to the dictionary after it is created like so:
+
+dict_name[new_key] = new_value
+An empty pair of curly braces {} is an empty dictionary, just like an empty pair of [] is an empty list.
+
+The length len() of a dictionary is the number of key-value pairs it has. Each pair counts only once, even if the value is a list. (That's right: you can put lists inside dictionaries!)
+
+Changing Your Mind
+Because dictionaries are mutable, they can be changed in many ways. Items can be removed from a dictionary with the del command:
+
+del dict_name[key_name]
+will remove the key key_name and its associated value from the dictionary.
+
+A new value can be associated with a key by assigning a value to the key, like so:
+
+dict_name[key] = new_value
+
+
+Remove a Few Things
+Sometimes you need to remove something from a list.
+
+beatles = ["john","paul","george","ringo","stuart"]
+beatles.remove("stuart")
+print beatles
+>> ["john","paul","george","ringo"]
+We create a list called beatles with 5 strings.
+Then, we remove the first item from beatles that matches the string "stuart". Note that .remove(item) does not return anything.
+Finally, we print out that list just to see that "stuart" was actually removed.
+
+It's Dangerous to Go Alone! Take This
+Let's go over a few last notes about dictionaries
+
+my_dict = {
+    "fish": ["c", "a", "r", "p"],
+    "cash": -4483,
+    "luck": "good"
+}
+print my_dict["fish"][0]
+In the example above, we created a dictionary that holds many types of values.
+The key "fish" has a list, the key "cash" has an int, and the key "luck" has a string.
+Finally, we print the letter 'c'. When we access a value in the dictionary like my_dict["fish"], we have direct access to that value. So we can access the item at index '0' in the list stored by the key "fish".
+
+BeFOR We Begin
+Before we begin our exercise, we should go over the Python for loop one more time. For now, we are only going to go over the for loop in terms of how it relates to lists and dictionaries. We'll explain more cool for loop uses in later courses.
+
+for loops allow us to iterate through all of the elements in a list from the left-most (or zeroth element) to the right-most element. A sample loop would be structured as follows:
+
+a = ["List of some sort”]
+for x in a: 
+    # Do something for every x
+This loop will run all of the code in the indented block under the for x in a: statement. The item in the list that is currently being evaluated will be x. So running the following:
+
+for item in [1, 3, 21]: 
+    print item
+would print 1, then 3, and then 21. The variable between for and in can be set to any variable name (currently item), but you should be careful to avoid using the word “list” as a variable, since that's a reserved word (that is, it means something special) in the Python language.
+
+This is KEY!
+You can also use a for loop on a dictionary to loop through its keys with the following:
+
+# A simple dictionary
+d = {"foo" : "bar"}
+
+for key in d: 
+    print d[key]  # prints "bar" 
+Note that dictionaries are unordered, meaning that any time you loop through a dictionary, you will go through every key, but you are not guaranteed to get them in any particular order.
 ---------------------------------------------------------------------------------------------------------------------
 
 February 29th, 2016
