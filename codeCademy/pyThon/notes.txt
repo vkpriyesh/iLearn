@@ -1,3 +1,120 @@
+March 5th, 2016
+
+Student Becomes the Teacher
+Lesson Number One
+
+Welcome to this "Challenge Course". Until now we've been leading you by the hand and working on some short and relatively easy projects. This is a challenge so be ready. We have faith in you!
+
+We’re going to switch it up a bit and allow you to be the teacher of your own class. Make a gradebook for all of your students.
+
+animal_sounds = {
+    "cat": ["meow", "purr"],
+    "dog": ["woof", "bark"],
+    "fox": [],
+}
+print animal_sounds["cat"]
+
+The example above is just to remind you how to create a dictionary and then to access the item stored by the "cat" key.
+
+
+Student Becomes the Teacher
+What's the Score?
+
+Great work!
+Instructions
+
+Now fill out your lloyd dictionary with the appropriate scores. To save you some time, we've filled out the rest for you.
+
+Homework: 90.0, 97.0, 75.0, 92.0
+Quizzes: 88.0, 40.0, 94.0
+Test Scores: 75.0, 90.0
+
+Make sure to include the decimal points so your grades are stored as floats! This will be important later.
+
+
+Student Becomes the Teacher
+Put It Together
+
+Now lets put the three dictionaries in a list together.
+
+my_list = [1, 2, 3]
+
+The above example is just a reminder on how to create a list. Afterwards, my_list contains 1, 2, and 3.
+Instructions
+
+Below your code, create a list called students that contains lloyd, alice, and tyler.
+
+
+Student Becomes the Teacher
+For the Record
+
+Excellent. Now you need a hard copy document with all of your students' grades.
+
+animal_sounds = {
+    "cat": ["meow", "purr"],
+    "dog": ["woof", "bark"],
+    "fox": [],
+}
+print animal_sounds["cat"]
+
+The example above is just to remind you how to create a dictionary and then to access the item stored by the "cat" key.
+
+
+
+Student Becomes the Teacher
+It's Okay to be Average
+
+When teaching a class, it's important to take the students' averages in order to assign grades.
+
+5 / 2
+# 2
+
+5.0 / 2
+# 2.5
+
+float(5) / 2
+# 2.5
+
+The above example is a reminder of how division works in Python.
+
+    When you divide an integer by another integer, the result is always an integer (rounded down, if needed).
+    When you divide a float by an integer, the result is always a float.
+    To divide two integers and end up with a float, you must first use float() to convert one of the integers to a float.
+
+
+Student Becomes the Teacher
+Just Weight and See
+
+Great! Now we need to compute a student’s average using weighted averages.
+
+cost = {
+    "apples": [3.5, 2.4, 2.3],
+    "bananas": [1.2, 1.8],
+}
+
+return 0.9 * average(cost["apples"]) + \
+0.1 * average(cost["bananas"])
+
+    In the above example, we create a dictionary called cost that contains the costs of some fruit.
+    Then, we calculate the average cost of apples and the average cost of bananas. Since we like apples much more than we like bananas, we weight the average cost of apples by 90% and the average cost of bananas by 10%.
+
+The \ character is a continuation character. The following line is considered a continuation of the current line.
+
+
+Student Becomes the Teacher
+Sending a Letter
+
+Great work!
+
+Now let's write a get_letter_grade function that takes a number score as input and returns a string with the letter grade that that student should receive.
+
+Part of the Whole
+
+Good! Now let's calculate the class average.
+
+You need to get the average for each student and then calculate the average of those averages.
+
+___________________________________________________________________________________________________
 March 4th, 2016
 
 Making a Purchase
