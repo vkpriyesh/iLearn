@@ -44,3 +44,10 @@ def get_letter_grade(score):
         return "F"
         
 print get_letter_grade(lloyd)
+
+def get_class_average(students) :
+    results = []
+    for student in students:
+        someVal = get_average(student)
+        results.append(someVal)
+    return average(results)
