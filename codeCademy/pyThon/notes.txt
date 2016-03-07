@@ -1,3 +1,10 @@
+March 7th, 2016
+
+List accessing
+This exercise goes over just pulling information from a list, which we've covered in a previous section!
+List element modification
+You've already learned how to modify elements of a list in a previous section. This exercise is just a recap of that!
+______________________________________________________________________________________________________________________________________
 March 5th, 2016
 
 Student Becomes the Teacher
