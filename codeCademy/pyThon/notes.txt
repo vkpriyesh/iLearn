@@ -1,3 +1,11 @@
+March 11th, 2016
+
+Changing the functionality of a function
+
+In this exercise, you will just be making a minor change to a function to change what that function does.
+
+______________________________________________________________________________________________________________________________
+
 March 10th, 2016
 
 Removing elements from lists
