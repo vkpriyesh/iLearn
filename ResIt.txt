@@ -1,1 +1,3 @@
 https://www.python.org/doc/humor/
+PyCon Stuffs to be done
+Need to push seminar
