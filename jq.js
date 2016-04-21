@@ -1,13 +1,36 @@
-// Initialize these three variables
-var a;
-var b;
-var c;
+//USING STRINGS
+// Setup
+var myStr = "Jello World";
 
-// Do not change code below this line
-a=6;
-b=15;
-c="I am a String!";
-a = a + 1;
-b = b + 5;
-c = c + " String!";
+// Only change code below this line
+
+myStr = "Hello World"; // Fixed
+
+//***********************************//
+
+// Example
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line.
+
+lastNameLength = lastName.length;
+// Example
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0];
 
