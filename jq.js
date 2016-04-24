@@ -25,6 +25,16 @@ lastNameLength = lastName.length;
 var firstLetterOfFirstName = "";
 var firstName = "Ada";
 
+
+//here starts ARRAYing:
+// Example
+var array = ["John", 23];
+
+// Only change code below this line.
+var myArray = ["Wow", 21];
+
+
+
 firstLetterOfFirstName = firstName[0];
 
 // Setup
