@@ -59,3 +59,18 @@ var lastName = "Lovelace";
 // Only change code below this line
 firstLetterOfLastName = lastName[0];
 
+//MANIPULATING ARRAYS USING SHIFT:
+
+// Example
+var ourArray = ["Stimpson", "J", ["cat"]];
+removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
+
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line.
+var removedFromMyArray;
+removedFromMyArray = myArray.shift();
+
+//MANIPULATION OVER
