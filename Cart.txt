@@ -1,0 +1,16 @@
+CHECKBOX METHOD-
+    https://www.youtube.com/watch?v=kTrw04aEAXM
+    https://www.cartmanager.net/administration/index.php3?ID=996
+    ****(TOO HARD TO DIGEST :X FTW)**** 
+        http://stackoverflow.com/questions/16293977/creating-a-shopping-cart-using-only-html-javascript
+        
+
+
+MORE CONCISE - 
+Build Cart: https://www.youtube.com/watch?v=VFrmqbbzvvk
+PayPal Cart: http://webdesign.about.com/od/ecommerce/a/create-a-paypal-shopping-cart.htm
+From Sratch Cart: 
+      Tuto:       https://www.youtube.com/watch?v=7el4iGI3gco
+      TutPlus:    http://code.tutsplus.com/tutorials/codeigniter-from-scratch-shopping-cart--net-10507
+      SO:         http://stackoverflow.com/questions/3234156/best-practices-to-develop-a-shopping-cart-from-scratch
+                  http://stackoverflow.com/questions/4878170/how-long-would-it-take-you-to-code-a-php-shopping-cart-like-oscommerce-from-scra
