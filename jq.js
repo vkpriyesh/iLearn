@@ -74,3 +74,19 @@ var removedFromMyArray;
 removedFromMyArray = myArray.shift();
 
 //MANIPULATION OVER
+//FUNCTION BEGINS:
+
+// Example
+function reusableFunction() {
+  console.log("Heyya, World");
+}
+
+reusableFunction();
+
+// Only change code below this line
+function reusableFunction(){
+  console.log("Hi World");
+}
+
+reusableFunction();
+//FUNCTION ENDDS
